@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainQuanLyMonAnActivity">
+
+
+    <TextView
+        android:id="@+id/txtQuanLyMonAn"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#00000f"
+        android:text="Quản Lý Menu"
+        android:background="#00CCFF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:layout_marginTop="-6dp"
+        android:src="@drawable/ic_add_circle_black_24dp" />
+    <ListView
+        android:id="@+id/lv_QuanLyMenu"
+        android:layout_below="@id/txtQuanLyMonAn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+
+
+
+</RelativeLayout>

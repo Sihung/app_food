@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_TenKhachHang"
+            android:layout_width="134dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="12dp"
+            android:hint="Tên Khách Hàng"
+            android:text=""
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/Cart_Item_Count"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/txt_TenKhachHang"
+            android:layout_gravity="right"
+            android:layout_marginEnd="129dp" />
+
+</RelativeLayout>

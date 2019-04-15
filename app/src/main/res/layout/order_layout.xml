@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/orderlayout"
+    tools:context=".MainLichSuActivity"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAllCaps="false"
+                android:id="@+id/txtIdFood"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_vertical|start"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAllCaps="false"
+                android:id="@+id/txtTenMonAn"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text=""
+                android:layout_marginBottom="5dp"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAllCaps="false"
+                android:id="@+id/txtTenKhachHang"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="aaaaaa"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtSoDienThoai"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="aaaaaaaa"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

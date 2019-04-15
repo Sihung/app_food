@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_trangchu"
+        android:title="Trang Chủ"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_timkiem"
+        android:title="Tìm Kiếm"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_trogiup"
+        android:title="Trợ Giúp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_phanhoi"
+        android:title="Phản Hồi"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_dangxuatct"
+        android:title="Đăng Xuất"
+        app:showAsAction="never" />
+</menu>

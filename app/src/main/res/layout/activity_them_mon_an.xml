@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThemMonAnActivity">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Tên Món Ăn:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Món Ăn"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập Giá:"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Giá"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Hình:"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnCapture"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/camera" />
+
+        <ImageButton
+            android:id="@+id/btnChoose"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="right"
+            android:src="@drawable/choose1" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/imgPicture"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/noimage1" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnDongYThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xuLyThemMoi"
+        android:text="Đồng Ý Thêm"
+        android:textSize="15sp" />
+</LinearLayout>
